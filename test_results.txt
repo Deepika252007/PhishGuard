@@ -1,0 +1,23 @@
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_adds_scheme (tests.PhishGuardTests.test_adds_scheme) ... ok
+test_at_symbol_flagged (tests.PhishGuardTests.test_at_symbol_flagged) ... ok
+test_control_characters_rejected (tests.PhishGuardTests.test_control_characters_rejected) ... ok
+test_empty_url_rejected (tests.PhishGuardTests.test_empty_url_rejected) ... ok
+test_ip_address_flagged (tests.PhishGuardTests.test_ip_address_flagged) ... ok
+test_reserved_example_domain_analyzed (tests.PhishGuardTests.test_reserved_example_domain_analyzed) ... ok
+test_suspicious_terms_flagged (tests.PhishGuardTests.test_suspicious_terms_flagged) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
